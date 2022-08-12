@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<link rel="stylesheet" href="css/style.css" />
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+    <!-- navbar-light is for fonts -->
+    <div class="container">
+      <!-- container is from bootstrap to give padding -->
+      <a href="" class="navbar-brand">
+        <span class="text-danger">S</span>ecret
+        <span class="text-danger">I</span>ntelligence
+        <span class="text-danger">A</span>gency
+
+
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <!-- data-bs-target ID for the div collapse -->
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <!-- ms margin start will place item to the right -->
+          <li class="nav-item"><a href="#learn" class="nav-link">What you will learn</a></li>
+          <li class="nav-item"><a href="#questions" class="nav-link">Questions</a></li>
+          <li class="nav-item"><a href="#instructors" class="nav-link">Instructors</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Showcase -->
+  <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+    <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-between">
+        <div>
+          <h1>Become a <span class="text-warning">Web Hacker Intelligence</span></h1>
+          <p class="lead my-4">SIA provides an in-depth understanding of ethical hacking phases, various attack vectors, and preventative countermeasures.</p>
+          <button class="btn btn-primary btn-lg" data-bs-target="#enroll" data-bs-toggle="modal">Start the Enrollment</button>
+        </div>
+
+        <img src="img/showcase.svg" alt="" class="img-fluid w-50 d-none d-sm-block">
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="bg-primary text-light p-5">
+    <div class="container">
+      <div class="d-md-flex justify-content-between align-items-center">
+        <h3 class="mb-3 mb-md-0">Sign up for our newsletter</h3>
+        <div class="input-group news-input">
+          <input type="text" placeholder="Enter Email" class="form-control" aria-label="Enter Email" aria-describeby="button-addon2">
+          <button class="btn btn-dark btn-lg">Enter Email</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Boxes -->
+
+  <section class="p-5">
+    <div class="container">
+      <div class="row text-center g-3">
+        <!-- g-3 gives gutter(gap) between col -->
+        <div class="col-md">
+          <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-laptop"></i>
+              </div>
+              <h3 class="card-title mb-3">Virtual</h3>
+              <p class="card-text">
+                This session will introduce participants to the process an ethical hacker follows when testing a target.
+              </p>
+              <a href="#" class="btn btn-primary">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md">
+          <div class="card bg-secondary text-light">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-person-square"></i>
+              </div>
+              <h3 class="card-title mb-3">Hybrid</h3>
+              <p class="card-text">
+                This course prepares students to assess and then correct the vulnerabilities present with information systems.
+              </p>
+              <a href="#" class="btn btn-dark">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md">
+          <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+                <i class="bi bi-people"></i>
+              </div>
+              <h3 class="card-title mb-3">In person</h3>
+              <p class="card-text">
+                Combines an hacking methodology with the hands-on application of security tools to better help students secure their systems.
+              </p>
+              <a href="#" class="btn btn-primary">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Learn Sections -->
+  <section class="p-5" id="learn">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md">
+          <a href="https://www.flaticon.com/free-stickers/looking" target="_blank" title="looking stickers"><img src="img/peek.png" alt="" class="img-fluid w-75"></a>
+        </div>
+        <div class="col-md p-5">
+          <h2>Learn The Fundamentals</h2>
+          <p class="lead">
+            A study of the structure and functions of international institutions and legal processes involved in the effort to maintain peace and security in the world.
+          </p>
+          <p>
+            This course will integrate lecture and applications designed to develop basic skills in writing, research, analytical and presentations skills. The course will include lectures, discussions, and computer research design projects.
+          </p>
+          <a href="#" class="btn btn-light mt-3">
+            <i class="bi bi-chevron-right"></i>Read More
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="p-5 bg-dark text-light">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md p-5">
+          <h2>Learn Ethical Hacking</h2>
+          <p class="lead">
+            Also known as “white hats,” ethical hackers are security experts that perform these security assessments.
+          </p>
+          <p>
+             The proactive work they do helps to improve an organization’s security posture. With prior approval from the organization or owner of the IT asset, the mission of ethical hacking is opposite from malicious hacking.
+             Ethical hackers use their knowledge to secure and improve the technology of organizations. They provide an essential service to these organizations by looking for vulnerabilities that can lead to a security breach.
+          </p>
+          <a href="#" class="btn btn-light mt-3">
+            <i class="bi bi-chevron-right"></i>Read More
+          </a>
+        </div>
+        <div class="col-md">
+        <a href="https://www.flaticon.com/free-stickers/technology" target="_blank" title="technology stickers">  <img src="img/hacker.png" alt="" class="img-fluid"></a>
+        </div>
+      </div>
+  </section>
+
+  <!-- Frequently asked question -->
+  <section class="p-5" id="questions">
+    <div class="container">
+      <h2 class="text-center mb-4">Frequently Asked Question</h2>
+      <div class="accordion accordion-flush" id="questions">
+        <!-- item 1 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-one">
+              What will you achieve?
+            </button>
+          </h2>
+          <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#questions">
+            <div class="accordion-body">
+              By the end of the course, you‘ll be able to...
+              <ul>
+                <li>Investigate reasons for encrypting information.</li>
+                <li>Compare various methods for encrypting information.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- item 2 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-two">
+              What else?
+            </button>
+          </h2>
+          <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#questions">
+            <div class="accordion-body">
+              (ahem)
+              <ul>
+                <li>Apply logical thinking, linguistic patterns, and historical enciphering methods to encipher and decipher messages.</li>
+                <li>Evaluate weaknesses of various encoding and enciphering methods.</li>
+                <li>Debate the necessity and effectiveness of protecting information.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- item 3 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-three">
+              What else do i need to know?
+            </button>
+          </h2>
+          <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#questions">
+            <div class="accordion-body">
+              Nothing else. So stop asking questions.
+            </div>
+          </div>
+        </div>
+        <!-- item 4 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-four">
+              Who is the course for?
+            </button>
+          </h2>
+          <div id="question-four" class="accordion-collapse collapse" data-bs-parent="#questions">
+            <div class="accordion-body">
+              This course has been specially designed for school students aged 13 and over who enjoy puzzles and are looking to improve their logic skills or find out more about espionage.
+            </div>
+          </div>
+        </div>
+        <!-- item 5 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-five">
+              Do you help find a job?
+            </button>
+          </h2>
+          <div id="question-five" class="accordion-collapse collapse" data-bs-parent="#questions">
+            <div class="accordion-body">
+              You have to look for yourself. Don't be lazy.
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Instructors -->
+  <section id="instructors" class="p-5 bg-primary">
+    <div class="container">
+      <h2 class="text-center text-white">
+        Our Instructors
+      </h2>
+      <p class="lead text-center text-white mb-5">
+        Our Instructors all have 5+ years working of School Modules in the industry (Except for Carlyle😋).
+      </p>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-light  text-center">
+            <div class="card-body">
+              <img
+                src="https://scontent.fmnl4-3.fna.fbcdn.net/v/t39.30808-6/298919497_1251534988720874_1751626117997504762_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEpFIlgpayDo2NHKhoaM6DGOw4v8uildu87Di_y6KV27yeZRMqy66l7JrgmUGxVbwsJd1cOUL3laZKkWBykGYjP&_nc_ohc=y8NjDpBF4aIAX-98hsu&_nc_oc=AQlv4NvG4NfsvfVMIjPMYnU_3o1WrrlmlIKaOIAfwWzJbq5qTPNi4KchtIHTmlAdPKQ&_nc_ht=scontent.fmnl4-3.fna&oh=00_AT_OIkZVNUUjUW1kBuSMv9CFm5EB9b9On9v15SafVU4-WQ&oe=62FA5001"
+                class="img-thumbnail rounded-circle mb-3">
+            </div>
+            <h4 class="card-title mb-3 px-2">Carrie Jane Rosales</h4>
+            <p class="card-text px-2">
+              Carrie is an instructional designer who has won awards for her work in school modules and have delivered best students with high honors.
+            </p>
+            <div class="text-center card-footer">
+
+              <a href="">
+                <i class="bi bi-twitter text-dark mx-1"></i></a>
+              <a href="">
+                <i class="bi bi-facebook text-dark mx-1"></i></a>
+              <a href="">
+                <i class="bi bi-instagram text-dark mx-1"></i></a>
+              <a href="">
+                <i class="bi bi-linkedin text-dark mx-1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- pic 2 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-light text-center">
+            <div class="card-body">
+              <img
+                src="https://scontent.fceb2-1.fna.fbcdn.net/v/t39.30808-6/298924258_1251535018720871_1828078579056403996_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFt-3Gp_2E7aA68ZC1k6BAu_fEoqgBz0or98SiqAHPSijiLj1yX1HAtzImOhkRoZDcv-r9zmykHoAapwHQI_fXW&_nc_ohc=44Ly4LNcKtIAX9yl7y2&_nc_ht=scontent.fceb2-1.fna&oh=00_AT9bzx3xszFBDh3XcWPWKDf9WltbbiQugkgq_vWhL-s9hQ&oe=62FAA655"
+                alt="" class="img-thumbnail rounded-circle mb-3">
+            </div>
+            <h4 class="card-title mb-3 px-2">Carsten Jim Rosales</h4>
+            <p class="card-text px-2">
+              Carsten is the Chief Data Officer at SIA University and love to play Roblux.
+            </p>
+            <div class="text-center card-footer">
+
+              <a href="">
+                <i class="bi bi-twitter text-dark mx-1"></i></a>
+              <a href="">
+                <i class="bi bi-facebook text-dark mx-1"></i></a>
+              <a href="">
+                <i class="bi bi-instagram text-dark mx-1"></i></a>
+              <a href="">
+                <i class="bi bi-linkedin text-dark mx-1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- pic 3 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-light text-center">
+            <div class="card-body">
+              <img
+                src="https://scontent.fceb6-1.fna.fbcdn.net/v/t39.30808-6/298792951_1251534918720881_4478874571205651492_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEVokGBFeA3Gy_kQwQZy0UTzUw-My1oZdPNTD4zLWhl09r4NGSI0xJo3In9bQcHFOpOjS2k9Ioeb3EnKTqO3e0p&_nc_ohc=6kdzW36gpE8AX9m-_7G&_nc_ht=scontent.fceb6-1.fna&oh=00_AT_JsSZhfqKUNLaNFZT9uzNeGVH3y53BEo8ASXPy8388Kg&oe=62FAE65D"
+                alt="" class="img-thumbnail rounded-circle mb-3">
+            </div>
+            <h4 class="card-title mb-3 px-2">Charles Jim Rosales</h4>
+            <p class="card-text px-2">
+              Charles is the chief of vault department where he lock everything inside with his master key.
+            </p>
+            <div class="text-center card-footer">
+
+              <a href="">
+                <i class="bi bi-twitter text-dark mx-1"></i></a>
+              <a href="">
+                <i class="bi bi-facebook text-dark mx-1"></i></a>
+              <a href="">
+                <i class="bi bi-instagram text-dark mx-1"></i></a>
+              <a href="">
+                <i class="bi bi-linkedin text-dark mx-1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- pic 4 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-light text-center">
+            <div class="card-body">
+              <img
+                src="https://scontent.fceb6-1.fna.fbcdn.net/v/t39.30808-6/299204160_1251534978720875_8794942419229215407_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGZB_x9bm1Qzt-aPTlF9rzZ_30AuzNZY0X_fQC7M1ljRSJZdIQK4U0m-QIURKAtyxX4rdIm5jlfiQkAmYlzYQR0&_nc_ohc=sEJ_JmEnhWYAX9QzUcK&tn=OW-cYuAvpncb-225&_nc_ht=scontent.fceb6-1.fna&oh=00_AT-OPFVQc5hc18gI4wOlflapxeE5U-0Uam-Xj-N9eMsp7A&oe=62FB1171"
+                alt="" class="img-thumbnail rounded-circle mb-3">
+            </div>
+            <h4 class="card-title mb-3 px-2">Carlyle Jim Rosales</h4>
+            <p class="card-text px-2">
+              Carlyle is the SIA university overall seer. He is the keeper of the house slippers.
+            </p>
+            <div class="text-center card-footer">
+
+              <a href="">
+                <i class="bi bi-twitter text-dark mx-1"></i></a>
+              <a href="">
+                <i class="bi bi-facebook text-dark mx-1"></i></a>
+              <a href="">
+                <i class="bi bi-instagram text-dark mx-1"></i></a>
+              <a href="">
+                <i class="bi bi-linkedin text-dark mx-1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact and Map -->
+  <section class="p-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md">
+          <h2 class="text-center mb-4">Contact Info</h2>
+          <ul class="list-group list-group-flush lead">
+            <li class="list-group-item">
+              <span class="fw-bold">Secret Location:</span> Somewhere in Cebu City
+            </li>
+            <li class="list-group-item">
+              <span class="fw-bold">Enrollment Phone number:</span> 0928-998899
+            </li>
+            <li class="list-group-item">
+              <span class="fw-bold">Student Phone:</span> Don't have phone
+            </li>
+            <li class="list-group-item">
+              <span class="fw-bold">Enrollment Email:</span> sia@secretagency.com
+            </li>
+            <li class="list-group-item">
+              <span class="fw-bold">Student email:</span> (same above)
+            </li>
+          </ul>
+        </div>
+        <div class="col-md">
+          <img src="img/map.jpg" class="image-fluid w-75 d-md-block ms-5" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <section class="footer p-5 bg-dark text-white text-center position-relative">
+    <div class="container">
+      <p class="lead">Copyright &copy; 2022 Secret Intelligence Agency</p>
+      <a href="" class="position-absolute bottom-0 end-0 p-5">
+        <i class="bi bi-arrow-up-circle h1"></i>
+      </a>
+    </div>
+  </section>
+
+
+  <!-- modal -->
+  <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="text-danger">S</span>ecret
+          <span class="text-danger ms-1">I</span>ntelligence
+          <span class="text-danger ms-1">A</span>gency
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="lead">Fill out this form and we'll contact you.</p>
+          <div class="mb-1 label col-form-label">First name:</div>
+          <input type="text" id="firstname" class="form-control">
+        </div>
+        <div class="modal-body">
+          <div class="mb-1 label col-form-label">Last name:</div>
+          <input type="text" id="firstname" class="form-control">
+        </div>
+        <div class="modal-body">
+          <div class="mb-1 label col-form-label">Phone:</div>
+          <input type="text" id="firstname" class="form-control">
+        </div>
+        <div class="modal-body">
+          <div class="mb-1 label col-form-label">Email:</div>
+          <input type="text" id="firstname" class="form-control">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>enroll
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+
+</html>
